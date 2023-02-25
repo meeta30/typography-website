@@ -1,11 +1,58 @@
+body{
+    color:aquamarine;
+    margin: 0;
+}
+
 h1{
     font-size: 60px;
     color: blue;
     text-shadow: 2px 2px rgb(0,0,0,0.4);
     font-family: 'Labrada', serif;
     letter-spacing: 1.5px;
+    text-align: center;
+}
+h2{
+    font-size: 60px;
+    color: blue;
+    text-shadow: 2px 2px rgb(0,0,0,0.4);
+    font-family: 'Labrada', serif;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+h3{
+    font-size: 60px;
+    color: blue;
+    text-shadow: 2px 2px rgb(0,0,0,0.4);
+    font-family: 'Labrada', serif;
+    letter-spacing: 1.5px;
+    text-align: left;
 }
 p{
     font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
     line-height: 24px;
+    color: darkslategrey;
+    text-align: left;
+}
+
+.homepage-hero{
+    height: 240px;
+text-align: center; 
+padding-top: 100px; 
+padding-left: 10px; 
+padding-right: 10px;
+background-color: rgb(107, 40, 1);
+background-image: url("https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg");
+background-size: cover;
+background-attachment: fixed;
+}
+
+.main-content {
+    max-width: 800px; margin: 0 auto;
+    padding: 0 10px;
+}
+footers{
+    background-color: rgb(20, 90, 29);
+    text-align: center; padding-top: 50px;
+    padding-bottom: 50px;
 }
