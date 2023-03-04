@@ -67,7 +67,7 @@ footers{
     padding-right: 10px;
 }
 
-.article-left, article-right {
+.article-left, .article-right {
     display: flex;
 }
 
