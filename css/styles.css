@@ -71,6 +71,14 @@ footers{
     display: flex;
 }
 
+.article-left {
+    flex-direction: row;
+}
+
+.article-RIGHT {
+    flex-direction: row-reverse;
+}
+
 .article-right img, .article-left img {
     width: 50%;
 }
