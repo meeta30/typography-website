@@ -10,6 +10,8 @@ h1{
     font-family: 'Labrada', serif;
     letter-spacing: 1.5px;
     text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 h2{
     font-size: 60px;
@@ -18,6 +20,8 @@ h2{
     font-family: 'Labrada', serif;
     letter-spacing: 1.5px;
     text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 h3{
     font-size: 60px;
@@ -26,6 +30,8 @@ h3{
     font-family: 'Labrada', serif;
     letter-spacing: 1.5px;
     text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 p{
     font-family: 'Times New Roman', Times, serif;
@@ -53,10 +59,19 @@ background-attachment: fixed;
 }
 
 footers{
-    background-color: rgb(20, 90, 29);
+    background-color: rgb(127, 221, 139);
     text-align: center; 
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 10px;
     padding-right: 10px;
 }
+
+.article-left, article-right {
+    display: flex;
+}
+
+.article-right img, .article-left img {
+    width: 50%;
+}
+
